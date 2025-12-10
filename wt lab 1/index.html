@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIT-AP University - Home</title>
+    
+    <style>
+        /* CSS Variables */
+        :root {
+            --primary-color: #c03715;
+            --header-color: #084a62;
+            --cta-color: #ff9d00;
+            --background-light: #f4f4f9;
+        }
+
+        /* Global Styles and Reset */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-light);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header and Navigation */
+        .main-header {
+            background-color: var(--header-color);
+            padding: 15px 5%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .register-link {
+            background-color: var(--cta-color);
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .register-link:hover {
+            background-color: #e65c00;
+            transform: scale(1.05);
+        }
+
+        /* Main Content Area */
+        .content-center {
+            max-width: 960px;
+            margin: 80px auto;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .content-center h1 {
+            color: var(--header-color);
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .content-center h2 {
+            color: var(--primary-color);
+            font-size: 1.5em;
+            margin-top: 0;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+
+        .welcome-message {
+            background-color: #e6f7ff;
+            border: 1px solid #b3e0ff;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 8px;
+        }
+
+        .welcome-message p {
+            font-size: 1.1em;
+            font-style: italic;
+            color: var(--header-color);
+            margin: 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="main-header">
+        <nav>
+            <a href="registration.html" class="register-link">Register Now</a>
+        </nav>
+    </header>
+
+    <main class="content-center">
+        <h1>VIT-AP University</h1>
+        <h2>Student Information Portal</h2>
+        
+        <p>Click the "Register Now" button above to start your application.</p>
+        
+        <div class="welcome-message">
+             <p>Explore your future with world-class education and research opportunities.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 VIT-AP University. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
